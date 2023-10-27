@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="exam3.Pages.NewPage1"
+             Title="NewPage1">
+    <Grid RowDefinitions="*,auto">
+        <ScrollView>
+            <Grid RowDefinitions="*,*" 
+              BackgroundColor="#F9F3CC"
+
+              >
+                <Grid Grid.Row="0">
+                    <Image
+                   Source="keyboard.png"   
+
+                        />
+                    <Image
+                    Source="border.png"
+                    
+                    />
+                    <HorizontalStackLayout HorizontalOptions="Start" VerticalOptions="Start">
+                        <Grid Margin="10,3,0,0">
+                            <Frame
+                        BorderColor="Transparent"
+                        BackgroundColor="Grey"
+                        Opacity="0.5"
+                        CornerRadius="30"
+                        Margin="0,0,0,0"
+                        />
+
+                            <Image
+                    Source="https://cdn3.iconfinder.com/data/icons/arrow-338/512/previous_back_arrow_navigation_button-256.png"
+                    HeightRequest="40"
+                    />
+                        </Grid>
+
+
+                        <Grid Margin="162,3,0,0">
+                            <Frame
+                            BorderColor="Transparent"
+                            BackgroundColor="Grey"
+                            Opacity="0.5"
+                            CornerRadius="30"
+                            Margin="0,0,0,0"
+                        />
+
+                            <Image
+                            Source="gradshr.png"
+                            HeightRequest="35"
+                        />
+                        </Grid>
+
+
+                        <Grid Margin="8,3,0,0">
+                            <Frame
+                            BorderColor="Transparent"
+                            BackgroundColor="Grey"
+                            Opacity="0.5"
+                            CornerRadius="30"
+                            Margin="0,0,0,0"
+                        />
+
+                            <Image
+                            Source="gradcrt.png"
+                            HeightRequest="35"
+                        />
+                        </Grid>
+
+                        <Grid Margin="8,3,0,0">
+                            <Frame
+                            BorderColor="Transparent"
+                            BackgroundColor="Grey"
+                            Opacity="0.5"
+                            CornerRadius="30"
+                            Margin="0,0,0,0"
+                        />
+
+                            <Image
+                            Source="gradopt.png"
+                            HeightRequest="35"
+                        />
+                        </Grid>
+
+                    </HorizontalStackLayout>
+
+
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="15,10,15,0">
+                    <Grid>
+                        <StackLayout>
+
+
+
+                            <Grid>
+
+                                <Button
+                            Margin="-5,-48,0,0"
+                            HorizontalOptions="Start"
+                            HeightRequest="30"
+                            WidthRequest="44"
+                            Opacity="0.5"
+                            BackgroundColor="#8EACCD"
+                            />
+
+                                <Label
+                        Text="Mall Zeus K008 ( BP - Morphling ) LED Backlit USB Wired Gaming Keyboard - Online Exclusive Edition"
+                        TextColor="#071952"
+                        FontAttributes="Bold"
+                        FontSize="18"
+
+                        />
+                            </Grid>
+
+
+                            <HorizontalStackLayout Margin="0,15,0,0">
+
+                                <Label 
+
+                          Text="₱109 - ₱329"
+                          TextColor="#071952"
+                          FontSize="21"
+                          />
+
+                            </HorizontalStackLayout>
+                            <Grid Margin="0,0,0,0">
+                                <Label 
+
+                        Text="₱1,299"
+                        TextColor="Grey"
+                        FontSize="23"
+                      />
+
+                                <Line HorizontalOptions="Start"
+                           HeightRequest="4"
+                           WidthRequest="78"
+                           BackgroundColor="grey"
+                           Opacity="0.5"
+                       />
+
+                            </Grid>
+
+                            <HorizontalStackLayout 
+                            
+                        HorizontalOptions="Start"
+                        Margin="0,20,0,8"
+
+                        >
+                                <Image
+                        HeightRequest="20"
+                        Source="gradfulstr.png"
+                        />
+
+                                <Image
+                        HeightRequest="20"
+                        Source="gradfulstr.png"
+                    />
+                                <Image
+                        HeightRequest="20"
+                        Source="gradfulstr.png"
+                    />
+                                <Image
+                        HeightRequest="20"
+                        Source="gradfulstr.png"
+                    />
+
+                                <Image
+                        HeightRequest="20"
+                        Source="halfgradstr.png"
+                    />
+
+                                <Label
+                        Text="4.5"
+                        TextColor="#071952"
+                        FontSize="15"
+                        Margin="0,2,0,0"
+                        />
+
+                                <Label
+                        Text=" l"
+                        TextColor="Grey"
+                        Opacity="0.5"
+                        FontSize="15"
+                        Margin="0,2,0,0"
+                    />
+
+                                <Label
+                        Text="8.9K Sold"
+                        TextColor="#071952"
+                        FontSize="15"
+                        Margin="0,2,0,0"
+                    />
+
+                        <Image
+                            Margin="50,0,0,0"
+                            HeightRequest="25"
+                            Source="gradhrt.png"
+
+                            />
+                                <Image
+                                    Margin="6,0,0,0"
+                                    HeightRequest="25"
+                                    Source="gradshr.png"
+
+                                />
+                                <Image
+                                    Margin="6,0,0,0"
+                                    HeightRequest="25"
+                                    Source="gradmess.png"
+
+                                />
+                            </HorizontalStackLayout>
+
+                            <Line HorizontalOptions="Start"
+                                  HeightRequest="1"
+                                  WidthRequest="600"
+                                  BackgroundColor="grey"
+                                  Opacity="0.5"
+                                  Margin="-30,0,0,0"
+                            />
+
+
+                            <HorizontalStackLayout 
+                                HorizontalOptions="Center"
+                                Margin="0,9,0,0"
+                                >
+                                <Image
+                                    HeightRequest="20"
+                                    Source="gradchek.png"
+                                    
+                                    />
+                             
+                                <Label
+                                    Text="100% Authentic"
+                                    TextColor="#071952"
+                                    FontSize="10"
+                                    />
+
+                                <Image
+                                    HeightRequest="20"
+                                    Source="gradretu.png"
+                                    Margin="7,0,0,0"
+                                />
+
+                                <Label
+                                    Text="7-Day Returns"
+                                    TextColor="#071952"
+                                    FontSize="10"
+                                />
+
+                                <Image
+                                    Margin="7,0,0,0"
+                                    HeightRequest="20"
+                                    Source="gradship.png"
+                                />
+
+                                <Label
+                                    Text="Shipping Discounts"
+                                    TextColor="#071952"
+                                    FontSize="10"
+                                />
+                            </HorizontalStackLayout>
+
+
+                        </StackLayout>
+
+                    </Grid>
+                </Grid>
+
+
+
+
+            </Grid>
+
+
+
+
+
+
+
+        </ScrollView>
+
+        <StackLayout HeightRequest="80" 
+                     BackgroundColor="Black"
+                     VerticalOptions="End">
+
+            <HorizontalStackLayout>
+                <Grid ColumnDefinitions="*,*">
+                    <Button
+                        BackgroundColor="#F9F3CC"
+                        CornerRadius="40"
+                        WidthRequest="120"
+                        HeightRequest="40"
+                        Text="Cancel Order"
+                        FontAttributes="Bold"
+                        FontSize="10"
+                        TextColor="#071952"
+                        Margin="40,20,0,0"
+                    />
+
+                    <Button
+                        BackgroundColor="#088395"
+                        HorizontalOptions="End"
+                        WidthRequest="160"
+                        Margin="55,0,0,0"
+                        Grid.Column="1"
+                        TextColor="#F9F3CC"
+                        Text="Buy With Voucher"
+                        FontAttributes="Bold"
+                    />
+
+                </Grid>
+
+
+            </HorizontalStackLayout>
+
+
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
